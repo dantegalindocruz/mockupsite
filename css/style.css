@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#left-menu,
+#main-content{
+  height: 100%;
+}
+
+#left-menu{
+  width: 25%;
+  background: grey;
+  position: fixed;
+  height:700px;
+}
+
+#main-content {
+  width: 75%;
+}
+
+/* #hamburger-menu,
+.hamburger {
+} */
+
+#hamburger-menu {
+  width: 5%;
+  float:right;
+  margin: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.hamburger {
+  margin-bottom: 2px;
+  border-bottom: 2px solid #fefefe;
+}
