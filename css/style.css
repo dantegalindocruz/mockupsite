@@ -35,6 +35,7 @@
   background: url('../images/music.jpg') center/cover no-repeat;
   position: fixed;
   color: #fefefe;
+  z-index: 1;
 }
 
 #left-menu .hamburger-menu {
@@ -101,6 +102,8 @@
 
 #main-content .hamburger-menu{
   width: 2.4%;
+  position: fixed;
+  z-index: 0;
 }
 
 #main-content .hamburger{
