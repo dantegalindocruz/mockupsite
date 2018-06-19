@@ -27,7 +27,8 @@ h1{
 }
 
 #left-menu{
-  width: 16.5%;
+  transform: translate(0);
+  width: 20%;
   text-align: center;
   background: url('../images/music.jpg') center/cover no-repeat;
   position: fixed;
@@ -43,7 +44,7 @@ h1{
 }
 
 #main-content {
-  width: 83.5%;
+  width: 80%;
 }
 
 .hamburger-menu {
@@ -55,4 +56,8 @@ h1{
 .hamburger {
   margin-bottom: 2px;
   border-bottom: 2px solid #000;
+}
+
+#main-content .hamburger-menu{
+  margin: 10px;
 }
