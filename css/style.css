@@ -104,6 +104,7 @@
   width: 2.4%;
   position: fixed;
   z-index: 0;
+  display = 'none';
 }
 
 #main-content .hamburger{

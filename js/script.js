@@ -6,6 +6,7 @@ mainContentContainer = document.querySelector('#main-content .container');
 filter = document.querySelector('#filter');
 
 hamburgerMenu.addEventListener('click', function(e){
+    mainContentMenu.style.display = 'block';
     leftMenu.style.transition = "transform 1s ease";
     leftMenu.style.transform= "translate(-150%)";
     mainContentContainer.style.margin = "5% 15% 0 15%";
