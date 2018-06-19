@@ -108,8 +108,63 @@
 }
 
 #main-content .container{
- border: 1px solid red;
+ color: #7a7a7a;
  width: 60%;
- margin: 0 10%;
+ margin: 5% 10% 0% 10%;
  float: right;
+}
+
+#main-content .container p{
+  font-size: 1.2em;
+}
+#main-content .container h2{
+  margin-bottom: 5px;
+}
+
+#main-content .container p {
+  margin-bottom: 1em;
+}
+
+#main-content .container h2, .date{
+  text-align: center;
+}
+
+#main-content .container h2{
+  font-size: 2.3em;
+  font-weight: 200;
+}
+
+#main-content .container .post .date{
+  color: #444;
+}
+
+#main-content .container h2 a ,
+#main-content .container p a{
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+#main-content .container h2 a:hover{
+  opacity: 0.8;
+}
+
+#main-content .container .post{
+   border-bottom: 1px solid #f1f1f1;
+   margin-bottom: 1em;
+}
+
+#main-content .container .post p{
+  font-size: 1.4em;
+}
+
+i.fa-chevron-right {
+  opacity: 0.8;
+}
+
+#main-content .container .post p a {
+  font-size: 0.8em;
+}
+
+#main-content .container p a:hover{
+  text-decoration: underline;
 }
