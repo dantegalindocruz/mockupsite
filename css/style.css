@@ -202,4 +202,12 @@ i.fa-chevron-right {
      margin-top: 50px;
    }
 
+   #left-menu #nav-links li{
+     height: 50px;;
+   }
+
+   #left-menu #nav-links a{
+     padding: 10px 0;
+   }
+
 }
