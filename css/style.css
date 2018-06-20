@@ -181,4 +181,8 @@ i.fa-chevron-right {
      /* position: fixed; */
    }
 
+   #left-menu .container {
+     margin: 0;
+   }
+
 }
