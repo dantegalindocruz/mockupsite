@@ -175,17 +175,7 @@ i.fa-chevron-right {
 
 /* Mobile */
 /* Smartphones (portrait) ----------- */
-@media only screen and (min-width: 320px){
-  #left-menu {
-    width: 100%;
-    position: fixed;
-  }
+@media only screen and (max-width:360px){
 
-  #left-menu .container {
-    max-height: 50%;
-  }
 
-  #main-content .hamburger-menu{
-    width: 10%;
-  }
 }
