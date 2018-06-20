@@ -29,7 +29,6 @@
 }
 
 #left-menu{
-  overflow: hidden;
   transform: translate(0);
   width: 20%;
   text-align: center;
@@ -179,7 +178,10 @@ i.fa-chevron-right {
 @media only screen and (min-width: 320px){
   #left-menu {
     width: 100%;
-   min-device-height: 100%;
+  }
+
+  ##left-menu .container {
+    height: 100vh;
   }
 
   #main-content .hamburger-menu{
