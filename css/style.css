@@ -174,8 +174,9 @@ i.fa-chevron-right {
 
 /* Mobile */
 /* Smartphones (portrait) ----------- */
-@media only screen and (width : 360px) {
+@media only screen and (min-width : 360px) {
   #left-menu {
     width: 100%;
+    height: auto;
   }
 }
