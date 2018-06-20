@@ -48,6 +48,7 @@
 #left-menu .container{
   clear:both;
   margin-top: 50px;
+  height: 100%;
 }
 
 #left-menu .container img{
@@ -180,7 +181,7 @@ i.fa-chevron-right {
   }
 
   #left-menu .container{
-    height: 100%;
+    /* height: 100%; */
   }
 
   #main-content .hamburger-menu{
