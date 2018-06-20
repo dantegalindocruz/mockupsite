@@ -174,9 +174,13 @@ i.fa-chevron-right {
 
 /* Mobile */
 /* Smartphones (portrait) ----------- */
-@media only screen and (min-width : 360px) {
+@media only screen and (min-width : 360px) and (min-height: 600px){
   #left-menu {
     width: 100%;
     height: 100%;
+  }
+
+  #main-content .hamburger-menu{
+    width: 10%;
   }
 }
