@@ -21,11 +21,11 @@ mainContentMenu.addEventListener('click', function(e){
   leftMenu.style.transition = "transform 1s ease";
   leftMenu.style.transform= "translate(0)";
 
-  /*if(window.matchMedia("(min-width: 300px) and (max-width: 500px)").matches){
+  if(window.matchMedia("(min-width: 300px) and (max-width: 500px)").matches){
     mainContentContainer.style.width= "80%";
     mainContentContainer.style.margin="5% 10% 0% 10%";
   } else{
-  mainContentContainer.style.margin = "5% 15% 0% 15%;";
+  mainContentContainer.style.margin = "5% 15% 0% 15%";
   mainContentContainer.style.transition = "width 0.8s ease";
   mainContentContainer.style.width= "55%";
   }
