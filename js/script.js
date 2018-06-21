@@ -10,7 +10,7 @@ hamburgerMenu.addEventListener('click', function(e){
     if(window.matchMedia("(min-width: 300px) and (max-width: 800px)").matches){
       mainContentContainer.style.width= "80%";
       mainContentContainer.style.margin="5% 10% 0% 10%";
-      mainContentContainer.style.overflow= "hidden";
+      leftMenu.style.overflow= "hidden";
     } else{
     mainContentContainer.style.margin = "5% 15% 0 15%";
     mainContentContainer.style.transition = "width 0.8s ease";
