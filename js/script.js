@@ -1,10 +1,10 @@
-hamburgerMenu = document.querySelector('#left-menu.hamburger-menu');
+leftHamburgerMenu = document.querySelector('#left-menu.hamburger-menu');
 leftMenu = document.querySelector('#left-menu');
 mainContentMenu = document.querySelector('#main-content .hamburger-menu');
 mainContentContainer = document.querySelector('#main-content .container');
 filter = document.querySelector('#filter');
 
-hamburgerMenu.addEventListener('click', function(e){
+leftHamburgerMenu.addEventListener('click', function(e){
     leftMenu.style.transition = "transform 1s ease";
     leftMenu.style.transform= "translate(-150%)";
     if(window.matchMedia("(min-width: 300px) and (max-width: 800px)").matches){
