@@ -1,6 +1,6 @@
 hamburgerMenu = document.querySelector('.hamburger-menu');
 leftMenu = document.querySelector('#left-menu');
-mainContent = document.querySelector('#main-content');
+body = document.querySelector('body');
 mainContentMenu = document.querySelector('#main-content .hamburger-menu');
 mainContentContainer = document.querySelector('#main-content .container');
 filter = document.querySelector('#filter');
@@ -11,7 +11,7 @@ hamburgerMenu.addEventListener('click', function(e){
     if(window.matchMedia("(min-width: 300px) and (max-width: 800px)").matches){
       mainContentContainer.style.width= "80%";
       mainContentContainer.style.margin="5% 10% 0% 10%";
-      mainContent.style.overflow= 'hidden';
+      body.style.overflow= "hidden";
     } else{
     mainContentContainer.style.margin = "5% 15% 0 15%";
     mainContentContainer.style.transition = "width 0.8s ease";
