@@ -10,10 +10,7 @@ leftHamburgerMenu.addEventListener('click', function(e){
     if(window.matchMedia("(min-width: 300px) and (max-width: 800px)").matches){
       mainContentContainer.style.width= "80%";
       mainContentContainer.style.margin="5% 10% 0% 10%";
-<<<<<<< HEAD
-      mainContentContainer.style.overflow="auto";
-=======
->>>>>>> ac3aeab1c589839f8b4d9c251f538512b79e168b
+      leftMenu.style.overflow="auto";
     } else{
     mainContentContainer.style.margin = "5% 15% 0 15%";
     mainContentContainer.style.transition = "width 0.8s ease";
