@@ -20,6 +20,7 @@ body{
 }
 
 .hamburger {
+  cursor: pointer;
   margin-bottom: 2px;
   border-bottom: 2px solid #fefefe;
 }
@@ -256,7 +257,6 @@ i.fa-chevron-right {
    }
 
    #left-menu .hamburger-menu{
-     cursor: pointer;
      width: 5%;
    }
 

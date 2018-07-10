@@ -1,6 +1,6 @@
-leftHamburgerMenu = document.querySelector('#left-menu .hamburger-menu');
+leftHamburgerMenu = document.querySelector('#left-menu a .hamburger-menu');
 leftMenu = document.querySelector('#left-menu');
-mainContentMenu = document.querySelector('#main-content .hamburger-menu');
+mainContentMenu = document.querySelector('#main-content a .hamburger-menu');
 mainContentContainer = document.querySelector('#main-content .container');
 filter = document.querySelector('#filter');
 
