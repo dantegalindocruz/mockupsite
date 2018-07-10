@@ -5,6 +5,7 @@ mainContentContainer = document.querySelector('#main-content .container');
 filter = document.querySelector('#filter');
 
 leftHamburgerMenu.addEventListener('click', function(e){
+    e.preventDefault();
     leftMenu.style.transition = "transform 1s ease";
     leftMenu.style.transform= "translate(-150%)";
     if(window.matchMedia("(min-width: 300px) and (max-width: 800px)").matches){
@@ -18,6 +19,7 @@ leftHamburgerMenu.addEventListener('click', function(e){
 });
 
 mainContentMenu.addEventListener('click', function(e){
+  e.preventDefault();
   leftMenu.style.transition = "transform 1s ease";
   leftMenu.style.transform= "translate(0)";
 
